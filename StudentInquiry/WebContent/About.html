@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        #footer {
+            position: fixed;
+            
+            bottom: 0;
+            width: 100%;
+            
+            
+        }
+        
+        b:hover {
+
+  position: relative;
+  animation: example ease-in forwards;
+  
+  animation-duration: 4s;
+  
+}
+
+
+@keyframes example {
+  0%   {font-size:18px;color:#ff8080}
+  
+  50%  {font-size:22px;color:#b30000}
+  
+  100% {font-size:26px;color:#006600}
+}
+    </style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+</head>
+<body style ="background-color: #ADD8E6";>
+<header>
+                <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #0c0f38">
+                    <div>
+                        <a href="" class="navbar-brand"> Online Help Desk </a>
+                    </div>
+
+                    <ul class="navbar-nav">
+                        <li><a href="<%=request.getContextPath()%>/list" class="nav-link">Users</a></li>
+                    </ul>
+                </nav>
+</header>
+            
+              
+  
+  
+            <center style = "text-align: center;text-transform: uppercase;color: #269900;font-size:25px;">About us</center>
+              
+  			<center>
+  			<br>
+  			<div style = "text-shadow: 1px 1px green">
+			<b>WHO ARE WE?</b><br>
+			Sri Lanka Institute of Information Technology<br>
+			SLIIT(Sri Lanka Institute of Information Technology) is a leading non-state university approved by University Grants Commission(UGC) and also a member of Association of Commonwealth Universities(ACU), as well as the International Association of Universities(IAU). SLIIT is the first Sri Lankan institute to be accredited by the Institution of Engineering & Technology, UK. 
+			SLIIT was established in 1999 with 400 students in Colombo metro campus. Currently, we have over 9000 students, local and international. 
+			
+			
+			<br>
+			<br>
+			<b>OUR MISSION</b><br>
+			To create a learning and research environment with best possible resources for our students and staff to be innovative and dedicated to excellence and to produce graduated with strong analytical, problem solving and communication skills.
+			
+			<br>
+			<br>
+			<b>OUR OBJECTIVE</b><br>
+			Education & training of professionals at a high level of excellence in the fields of IT, buisness and engineering assisting and promoting enteprises, innovators and start-up companies with the necessary expertise to achieve business objectives provisions of consultancy services and software services to public and private sector enterprises of Sri Lanka at a reasonable cost conduct and promotion of research & development leading ot specialized applications, services and innovative technology products, Expanding horizons in the fields of IT, buisness and engineering to reach international level.
+			</div>
+			<center>
+			
+			
+			
+
+
+
+
+<footer id = "footer">
+                <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #0c0f38">
+                    <div>
+                        <a href="" class="nav-link"> About Us </a>
+                    </div>
+
+                    <ul class="navbar-nav">
+                        <li><a href="<%=request.getContextPath()%>/list" class="nav-link"> Contact Us</a></li>
+                    </ul>
+                </nav>
+            </footer>
+</body>
+</html>
